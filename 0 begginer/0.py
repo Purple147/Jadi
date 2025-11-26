@@ -2,7 +2,7 @@ ali = "sina"
 ali.zfill(7)
 ali
 hamid = 7
-float(hamid)
+print(float(hamid))
 hamid
 b =3209472384
 kazem = "zade"
@@ -28,3 +28,12 @@ ali != "karim"
 hamid < mohammad > 1
 hamid > mohammad > 1
 hamid > mohammad != 1 < b != ali
+gmail = 17.41
+gmail
+t = hamid > mohammad != 1 < b != ali
+t
+first_family = "i'm not a women like you"
+last_family = 'my name is"Arsalan"'
+print(first_family, 'and', last_family)
+API = 'asdfj1349ua9fjal/asdlfkjsdf/%s/lklk'%'ffffffffffffffffffffffffffff'
+API

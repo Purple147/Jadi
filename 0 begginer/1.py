@@ -1,4 +1,4 @@
-# define and pring
+# define and print
 a = 77
 s = 'mohhamd'
 d = "i'm"

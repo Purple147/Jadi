@@ -1,10 +1,11 @@
-# prime numbers of 1000
+# prime numbers to 1000
 def prime_number(number):
     status = True
-    for numbers in range(2, int(number**0.5)+1):
+    for numbers in range(2, int(number**0.5) + 1):
         if number % numbers == 0:
             status = False
     return status
+
 
 prime_number(9)
 
@@ -17,11 +18,12 @@ for prime_numbers in range(1, 1001):
 # way two
 def prime_number_2(number_2):
     status_2 = True
-    for numbers_2 in range(2, int(number_2**0.5)+1):
+    for numbers_2 in range(2, int(number_2**0.5) + 1):
         if number_2 % numbers_2 != 0:
             continue
         status_2 = False
     return status_2
+
 
 prime_number_2(9)
 

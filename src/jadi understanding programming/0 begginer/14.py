@@ -1,5 +1,6 @@
 # libraries, solving jadi's problem, continue
 import random
+
 random.seed()
 peoples = [100] * 50
 count_numbers = 0
@@ -20,6 +21,7 @@ print("for", count_numbers, "times", peoples)
 
 # way 2
 import random
+
 random.seed()
 count_numbers = 0
 peoples = []

@@ -1,13 +1,14 @@
 # libraries, matplotlib
 
-import matplotlib, matplotlib.pyplot as plt
- 
+import matplotlib.pyplot as plt
+
 plt.bar(range(30), range(30))
 plt.show()
 
 
 # Two
-import matplotlib, matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+
 
 def Prime_number(number):
     Status = True
@@ -16,13 +17,17 @@ def Prime_number(number):
             Status = False
     return Status
 
+
 for barchart in range(2, 1 * 10**3):
     if Prime_number(barchart):
         plt.bar(barchart, barchart)
 plt.show()
 
 # Three
-import random, matplotlib, matplotlib.pyplot as plt
+import random
+
+import matplotlib.pyplot as plt
+
 random.seed()
 Peoples = [100] * 1 * 5 * 10
 Counts_Times = 0
@@ -34,5 +39,5 @@ for Room in range(1 * 50):
         continue
     Peoples[Random_1] -= 20
     Peoples[Random_2] += 20
-    plt.bar(range(50), sorted(Peoples, reverse = True))
+    plt.bar(range(50), sorted(Peoples, reverse=True))
 plt.show()

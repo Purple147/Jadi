@@ -15,7 +15,7 @@ while number_1 < 4 * 10**6:
     print(number_1, summing)
 
 
-#Way two
+# Way two
 number_1 = 0
 number_2 = 1
 summing = 0

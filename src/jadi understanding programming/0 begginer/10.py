@@ -12,7 +12,7 @@ for natural_numbers in range(1, 1000):
 
 print(summing)
 
-#Way two
+# Way two
 summing = 0
 for natural_numbers in range(1, 1000):
     if natural_numbers % 3 == 0 or natural_numbers % 5 == 0:
@@ -21,4 +21,3 @@ for natural_numbers in range(1, 1000):
 
 
 print(summing)
-

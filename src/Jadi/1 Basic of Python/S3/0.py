@@ -17,9 +17,8 @@ import statistics
 
 print(statistics.mean([0, -22, 2, 6, 77, 1, 23, 20]))
 
-import zipfile
 
-from random import randint
-from random import randrange
+from random import randint, randrange
+
 print(randint(30, 44))
 print(randrange(333))
